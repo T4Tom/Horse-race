@@ -49,9 +49,9 @@ def game_loop():
 
 
       if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
-        horsex += 5
+        horsex += 6
       if event.type == pygame.KEYDOWN and event.key == pygame.K_RETURN:
-        horsex2 += 6
+        horsex2 += 5
     
     screen.blit(backgroundImg, (0, 0))
 
