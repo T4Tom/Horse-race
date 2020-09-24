@@ -49,7 +49,7 @@ def game_loop():
 
 
       if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
-        horsex += 6
+        horsex += 5
       if event.type == pygame.KEYDOWN and event.key == pygame.K_RETURN:
         horsex2 += 5
     
